@@ -1,5 +1,5 @@
 <div align="center">
-  <h2>FreshSense-Smart-Expiry</h2><br>
+  <h2>FreshSense: Smart-Expiry-Detection</h2><br>
 </div>
 
 # Introduction and Background
