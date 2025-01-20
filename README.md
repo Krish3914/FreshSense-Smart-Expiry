@@ -1,27 +1,24 @@
 <div align="center">
-  <h2>CS-7641: Machine Learning - Group 43</h2><br>
+  <h2>FreshSense-Smart-Expiry</h2><br>
 </div>
-
-<h3>Team Members:</h3> 
-Jaiswal Shivanee, Sama Sai Srikesh Reddy, Anugundanahalli Ramachandra Reshma, Sivakumar Nikhil Viswanath, Khochare Janavi
-
-
-<h2> Final Project Video</h2>
-<div align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/V2FfINs40sY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-<br>
-
-<h2> Project Proposal Video</h2>
-<div align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zQJS_rvAnV0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-<br>
 
 # Introduction and Background
 Few products can last forever, more so food items. Expiration dates on products serve as an estimate for the healthy usage of the product. It is the date up to which food maintains its biological and physical stability. There are many cases where the information on the product label is hard to read and this is even more true in the case of a visually impaired person. With an increasing need to maintain the food quality standard, this remains an issue which needs to be tackled. 
 
 For the scope of this project, we considered an image data set which has images of various fruits, vegetables, packed products and beverages, with expiry date in 13 different date formats for the packed food products. 
+
+
+<h2> Final Project Video</h2>
+<div align="center">
+<iframe width="560" height="315" src="https://youtu.be/RzdMp3VMdWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<br>
+
+<h2> Project Proposal Video</h2>
+<div align="center">
+<iframe width="560" height="315" src="https://youtu.be/lZI6U1vtPMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<br>
 
 # Problem Definition and Motivation
 Many grocery products are similar in shape and texture, making it difficult for visually impaired people to identify them using touch. Also, they cannot read expiry dates of products, necessary to ensure safe consumption. Thus, we aim to create a system providing audio feedback to such people by identifying the grocery product and the best-before/expiry date if mentioned.
@@ -269,120 +266,9 @@ Expiry date detection can be very helpful in many real-world scenarios. Either t
 
 # Gantt Chart and Proposed Timeline
 [View File](https://gtvault-my.sharepoint.com/:x:/g/personal/rramachandra7_gatech_edu/Ecd-YPwCuFBDuvu44UX_7J0B0jfClvfIibe9kC5hi7yXXw?e=a2dXz0)
+<br><br>
 
-# Contribution Table
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-7btt">Name</th>
-    <th class="tg-7btt">Project Task</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-c3ow" rowspan="6">Shivanee Jaiswal </td>
-    <td class="tg-0pky">Project Midterm Report </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Data collection and pre-processing </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Unsupervised learning - Image compression </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Bounding Box Regression Model</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">OCR</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Final Presentation Slides and Video</td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow" rowspan="6">Reshma Ramachandra </td>
-    <td class="tg-0pky">Project Midterm Report </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Literature review </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Supervised Learning - Product Classification </td>
-  </tr>
-   <tr>
-    <td class="tg-0pky">Fine Tuning Classification Model</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Evaluation metrics </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Final Presentation Slides and Video</td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow" rowspan="6">Janavi Khochare </td>
-    <td class="tg-0pky">Project Midterm Report </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Unsupervised learning - Image compression </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Literature Review </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Bounding Box Regression Model</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">OCR</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Final Presentation Slides and Video</td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow" rowspan="6">Srikesh Reddy </td>
-    <td class="tg-0pky">Project Midterm Report </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Data sourcing and cleaning for supervised learning </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Data collection and pre-processing </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Evaluation metrics </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Github Page</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Final Presentation Slides and Video</td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow" rowspan="6">Nikhil Viswanath </td>
-    <td class="tg-0pky">Project Midterm Report </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Image augmentation </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Data collection and pre-processing </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Data sourcing and cleaning for supervised learning </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Fine Tuning Classification Model</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Final Presentation Slides and Video</td>
-  </tr>
-</tbody>
-</table>
+## Profile-Info
+- Email:  krishagrawal3914@gmail.com
+- Portfolio: https://krishfolio.vercel.app/
+- LinkedIn: https://www.linkedin.com/in/krishagrawal-softwaredevelopment/
