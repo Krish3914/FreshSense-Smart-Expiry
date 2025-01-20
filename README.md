@@ -272,3 +272,105 @@ Expiry date detection can be very helpful in many real-world scenarios. Either t
 - Email:  krishagrawal3914@gmail.com
 - Portfolio: https://krishfolio.vercel.app/
 - LinkedIn: https://www.linkedin.com/in/krishagrawal-softwaredevelopment/
+
+
+<!--
+1. Suggested Execution Order
+Final_Data_Augmentation_Code.ipynb
+
+Purpose: Likely contains data preprocessing and augmentation steps to prepare your dataset for training.
+Command: Open and run the notebook using:
+bash
+Copy
+Edit
+jupyter notebook Final_Data_Augmentation_Code.ipynb
+Ensure your input data (e.g., images, grocery product details) is available and paths are correctly set.
+PCA.ipynb
+
+Purpose: If Principal Component Analysis is applied, this step reduces dimensionality and optimizes your dataset for classification.
+Command:
+bash
+Copy
+Edit
+jupyter notebook PCA.ipynb
+Object_Classification.ipynb
+
+Purpose: Main classification logic for grocery products based on the processed dataset.
+Command:
+bash
+Copy
+Edit
+jupyter notebook Object_Classification.ipynb
+OCR.ipynb
+
+Purpose: Optical Character Recognition implementation for recognizing expiry dates.
+Command:
+bash
+Copy
+Edit
+jupyter notebook OCR.ipynb
+VGG_BoundingBox.ipynb
+
+Purpose: Likely uses a VGG model for detecting bounding boxes on images (e.g., identifying regions of interest for classification).
+Command:
+bash
+Copy
+Edit
+jupyter notebook VGG_BoundingBox.ipynb
+XCeptionet_BoundingBox.ipynb
+
+Purpose: An alternative or additional bounding box detection step, leveraging the XCeptionNet architecture.
+Command:
+bash
+Copy
+Edit
+jupyter notebook XCeptionet_BoundingBox.ipynb
+testing_img.ipynb
+
+Purpose: Testing and validating your model using the prepared dataset.
+Command:
+bash
+Copy
+Edit
+jupyter notebook testing_img.ipynb
+2. Prerequisites
+Before running the project:
+
+Install required Python libraries:
+
+bash
+Copy
+Edit
+pip install numpy pandas matplotlib tensorflow keras opencv-python scikit-learn
+Add additional libraries listed in the notebooks.
+
+Verify dependencies by opening the notebooks and checking for import statements.
+
+3. Environment Setup
+Activate Environment:
+
+bash
+Copy
+Edit
+conda activate <your_env_name>
+Or:
+
+bash
+Copy
+Edit
+source activate <your_env_name>
+Start Jupyter Notebook:
+
+bash
+Copy
+Edit
+jupyter notebook
+Navigate to the respective files in your browser and execute cells sequentially.
+
+4. Notes
+Ensure all file paths in the notebooks are accurate.
+Input data (e.g., images or metadata) should be correctly structured and accessible.
+Run notebooks in sequence, validating outputs at each step.
+If you encounter any errors or need further assistance, share additional details, and I'll guide you!
+-->
+
